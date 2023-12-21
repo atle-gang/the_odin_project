@@ -44,11 +44,14 @@ The `<title>` element gives the webpages a human-readable title which is displaa
 ```html
 <!DOCTYPE>
 
-<html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<title>My First Webpage<title>
-	</head>
+```html
+<!DOCTYPE>
+
+<html>
+    <head>
+      <meta charset="UTF-8">
+      <title>My First Webpage</title>
+    </head>
 </html>
 ```
 
@@ -60,18 +63,19 @@ To complete the boilerplate, add a `<body>` element to the `index.html` file. Th
 ```html
 <!DOCTYPE>
 
-<html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<title>My First Webpage<title>
-	</head>
-	
-	<body>
-		<h1>Hello World!</h1>
-	</body>
+```html
+<!DOCTYPE>
+
+<html>
+    <head>
+      <meta charset="UTF-8">
+      <title>My First Webpage</title>
+    </head>
+    <body>
+        <h1>Hello World!</h1>
+    </body>
 </html>
 ```
-
 
 
 
