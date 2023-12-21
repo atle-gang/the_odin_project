@@ -1,22 +1,16 @@
-# The Odin Project Repository
+# Elements and Tags
 
-This repository is dedicated to housing my solutions and exercises from [The Odin Project](https://www.theodinproject.com), particulary focusing on the foundational sections. The Odin Project is an open-source curriculum that provides a hands-on approach to learning web development.
+Opening tags tell the browser this is the start of an HTML element. They are compromised of a keyword enclosed in angle brackets `<>`. For example, an opening paragraph tag looks like this: `<p>`.
 
-## Sections
+Closing tags tell the browser where an element ends. They are almost the same as opening tags; the only difference is that they have a forward slash before the keyword. For example, a closing tag looks like this: `</p>`
 
-### 1. HTML Foundations
-In this secion, I cover the basics of HyperText Markup Language (HTML), the building block of webpages. It includes exercises and projects to solidify my understanding of HTML structure and semantics.
+A full paragraph element looks like this:
 
-### 2. CSS Foundations
-Here, I explore the fondamentals of  Cascading Styles Sheet (CSS) to style and enhance the visual presentation of HTML documents. This section encompasses various styling techniques and practices.
+```html
 
-### 3. Flexbox
-The Flexbox section delves into the flexible box layout model, a powerful tool for designing complex and responsive layouts with ease. I tackle exercises to master the ins and outs of Flexbox.
+<p>Some text content</p>
 
-### 4. JavaScript basics
-In this part of the repository, I document my journey through the basics of JavaScript. From variables and control flow to functions and objects, I work through exercises to strengthen my foundational JavaScript skills.
+```
 
-## Purpose of this Repository
-- **Learning Progress Tracking:** Use this repository to traack my progress in The Odin Project, and showcase the completed exercises and projects.
 
-- **Portfolio enhancement:** As I progress through The Odin Project, I can use this repository as part of my portfolio to showcase my understanding of web development foundations.
+There are some HTML elements that do not have a closing tag. These elements often look like this: `<br />` or `<img/>` but some can also bbe used without the closing forward slash such as `<br>` or `<img>`. These are known as self-closing tags or empty elements because they do not wraap any content.
