@@ -46,8 +46,8 @@ The `<title>` element gives the webpages a human-readable title which is displaa
 
 <html lang="en">
 	<head>
-		<meta charset="UTF-8">
-		<title>My First Webpage<title>
+	  <meta charset="UTF-8">
+	  <title>My First Webpage<title>
 	</head>
 </html>
 ```
@@ -62,12 +62,12 @@ To complete the boilerplate, add a `<body>` element to the `index.html` file. Th
 
 <html lang="en">
 	<head>
-		<meta charset="UTF-8">
-		<title>My First Webpage<title>
+	  <meta charset="UTF-8">
+	  <title>My First Webpage<title>
 	</head>
 	
 	<body>
-		<h1>Hello World!</h1>
+	  <h1>Hello World!</h1>
 	</body>
 </html>
 ```
