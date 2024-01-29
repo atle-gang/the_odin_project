@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Box Model</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Examples of different display types-->
+    <!-- <p>I am a paragraph. A short one.</p>
+    <ul>
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+    </ul>
+    <p>I am another paragraph. Some of the <span class="block">words</span> have been wrapped in a <span>span element</span>.</p> -->
+
+    <!-- This next example, we can see how inline elements behave. -->
+    <p>
+        I am a paragraph. Some of the
+        <span>words</span> have been wrapped in a
+        <span>span element</span>.
+      </p>
+      <ul>
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+      </ul>
+      <p class="inline">I am a paragraph. A short one.</p>
+      <p class="inline">I am another paragraph. Also a short one.</p>
+
+      <!-- The Standard CSS Box model -->
+      <div class="box">Content</div>
+
+      <!-- Playing with box models -->
+      <div class="box-p">I use the standard box model</div>
+      <div class="box-o">I use the alternative box model</div>
+
+      <!-- margin collapsing -->
+      <div class="container">
+        <p class="one">I am paragraph one.</p>
+        <p class="two">I am paragraph two.</p>
+      </div>
+
+      <!-- Using display: inline-block -->
+      <p class="inline">
+        I am a paragraph and this is a <span>span</span> inside that paragraph. A span is an inline element and so does not respect width and height.
+      </p>
+</html>
