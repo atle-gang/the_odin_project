@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Growing and Shrinking</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Flex Grow -->
+
+    <!-- 'flex-grow' expects a single number as its value, and that number to be used as a flex-items 
+    'growth factor' -->
+    <div class="flex-container">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+    </div>
+
+    <!-- Flex-shrink is similar to 'flex-grow' but sets the 'shrink factor' of a flex item.
+    'flex-shrink' only ends up being applied if the size of all flex items are larger than their parent container -->
+
+    <!-- For example, if our 3 divs from above had a width declaration like: width: 100px, and 'flex-direction' was smaller than 300px,
+    our divs would have to shrink to fit -->
+
+    <!-- The default shrink factor is 1. If you do not want an item to shrink then you can specify 'flex-shrink: 0;'-->
+    <div class="flex-container-2">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+    </div>
+</body>
+</html>

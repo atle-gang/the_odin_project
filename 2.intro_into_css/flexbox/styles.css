@@ -1,0 +1,27 @@
+.flex-container,
+.flex-container-2 {
+    display: flex;
+}
+
+.flex-container div {
+    background: peachpuff;
+    border: 4px solid brown;
+    height: 100px;
+    flex: 1 1 0%;
+}
+
+.flex-container-2 div{
+    background: peachpuff;
+    border: 4px solid brown;
+    height: 100px;
+    width: 250px;
+    flex: 1 1 auto;
+}
+
+.flex-container .two {
+    flex: 2 1 0%;
+}
+
+/* .flex-container-2 .two {
+    flex-shrink: 0;
+} */
