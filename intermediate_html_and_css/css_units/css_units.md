@@ -19,3 +19,8 @@ Using a relative size like `rem` to define font sized across your website is rec
 ### Viewport units
 
 The units `vh` and `vw` relate to the size of the viewport. Specifically, `1vh` is equal to `1%` of the viewport height and `1vw` is equal to `1%` of the viewport width.
+
+
+## [Codeyloyd](https://codyloyd.com/2021/css-units/)
+
+- rem for font-sizes and px for pretty much everthing else.
