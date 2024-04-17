@@ -11,3 +11,14 @@ The default positioning mode that you have gotten used to is `position: static`.
 - modals
 - image with a caption
 - icons on top of other elements
+
+**Disclaimer**: absolute positioning has very specific use cases and if possible, using flexbox or grid should be prioritised. It shouldn't be used to do entire page layouts.
+
+## Fixed position
+
+Fixed elements are also removed from the normal flow of the document and are positioned relative to the `viewport`. You basically use `top`, `right`, `bottom`, and `left` properties to position it, and it will stay there as the user scrolls. This is especially useful for things like navigation bars and floating chat buttons.
+
+
+## Sticky positioning 
+
+Sticky elements will act like normal elements until you scroll past them, and then they start behaving like fixed elements. They are also not taken out of the normal flow of the document. 
