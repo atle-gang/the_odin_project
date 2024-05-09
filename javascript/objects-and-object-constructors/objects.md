@@ -68,7 +68,7 @@ After we add a few value pairs, we get this:
 
 When creating a variable, in this case we used an object literal, the object gets a `__proto__` property. The `proto` is pointing the another `Object` where your value inherits from
 
-![Local Image](objects-and-object-constructors/look.png.png)
+![Local Image](objects-and-object-constructors/look.png)
 
 Depending on what type of variable you're creating, the `proto` is going to have respective stuff to it (respective to the type of variable)
 
