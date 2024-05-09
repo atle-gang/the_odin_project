@@ -55,3 +55,29 @@ const player = new Player('steve', 'X');
 console.log(player.name); // 'steve'
 ```
 
+## Prototypical Inheritance
+
+![Local Image](objects-and-object-constructors/proto.png)
+
+We define an empty object named `dude`. Taking a look at 'dude', you see that it has nothing inside is, but when you looking closely, it has the `proto` property.
+
+After we add a few value pairs, we get this:
+
+![Local Image](objects-and-object-constructors/add-few-properties.png)
+
+
+When creating a variable, in this case we used an object literal, the object gets a `__proto__` property. The `proto` is pointing the another `Object` where your value inherits from
+
+![Local Image](objects-and-object-constructors/look.png.png)
+
+Depending on what type of variable you're creating, the `proto` is going to have respective stuff to it (respective to the type of variable)
+
+The `valueOf` and `toString` methods in `dude` are inherited by our `dude` object because it is an instance of the Object constructor.
+
+### How do you create variables that inherit from something else, something other than the base object class?
+
+In this instance, I create an array, and as you can see, we have all these other methods associated with strings. Why is that? It is because the `myDogs` object is an instance of the `Array` constructor
+
+![Local Image](objects-and-object-constructors/myDogs.png)
+
+
