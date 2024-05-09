@@ -53,4 +53,5 @@ and which you use by calling the function with the keyword new.
 ```javascript
 const player = new Player('steve', 'X');
 console.log(player.name); // 'steve'
-```s
+```
+
