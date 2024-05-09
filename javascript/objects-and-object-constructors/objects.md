@@ -57,7 +57,7 @@ console.log(player.name); // 'steve'
 
 ## Prototypical Inheritance
 
-![Local Image](objects-and-object-constructors/images/proto.png)
+<img src="images/proto.png" alt="alt text">
 
 We define an empty object named `dude`. Taking a look at 'dude', you see that it has nothing inside is, but when you looking closely, it has the `proto` property.
 
