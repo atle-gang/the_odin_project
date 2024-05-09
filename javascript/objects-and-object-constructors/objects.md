@@ -57,18 +57,18 @@ console.log(player.name); // 'steve'
 
 ## Prototypical Inheritance
 
-<img src="images/proto.png" alt="alt text">
+<img src="images/proto.png">
 
 We define an empty object named `dude`. Taking a look at 'dude', you see that it has nothing inside is, but when you looking closely, it has the `proto` property.
 
 After we add a few value pairs, we get this:
 
-![Local Image](objects-and-object-constructors/images/add-few-properties.png)
+<img src="images/add-few-properties.png">
 
 
 When creating a variable, in this case we used an object literal, the object gets a `__proto__` property. The `proto` is pointing the another `Object` where your value inherits from
 
-![Local Image](objects-and-object-constructors/images/look.png)
+<img src="images/look.png">
 
 Depending on what type of variable you're creating, the `proto` is going to have respective stuff to it (respective to the type of variable)
 
@@ -78,7 +78,7 @@ The `valueOf` and `toString` methods in `dude` are inherited by our `dude` objec
 
 In this instance, I create an array, and as you can see, we have all these other methods associated with strings. Why is that? It is because the `myDogs` object is an instance of the `Array` constructor
 
-![My Dogs](objects-and-object-constructors/images/myDogs.png)
+<img src="images/myDogs.png">
 
 
 
