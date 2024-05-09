@@ -78,6 +78,7 @@ The `valueOf` and `toString` methods in `dude` are inherited by our `dude` objec
 
 In this instance, I create an array, and as you can see, we have all these other methods associated with strings. Why is that? It is because the `myDogs` object is an instance of the `Array` constructor
 
-![Local Image](objects-and-object-constructors/myDogs.png)
+![My Dogs](objects-and-object-constructors/myDogs.png)
+
 
 
